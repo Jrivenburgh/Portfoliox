@@ -1,0 +1,196 @@
+body {
+    background-image: url("../img/turquoise-and-yellow.jpg");
+    background-color: rgb(242, 244, 242, 0.7);
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+  }
+
+  nav {
+    font-family: 'Righteous', cursive;
+    border-radius: 0px 0px 38px 46px;
+    border: 0px solid #000000;
+    box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+}
+
+  /*  Project Button Styles */
+
+
+  .trainButton {
+    font-size: 24px;
+    background-color: rgb(236, 255, 193);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    border: 0px solid #000000;
+    margin:10px;
+    padding: 10px;
+  }
+
+  .trainButton:hover {
+      cursor: pointer;
+      transition: 0.7s;
+box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+  }
+
+  .GigButton {
+    font-size: 24px;
+    background-color: rgb(236, 255, 193);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    border: 0px solid #000000;
+    margin:10px;
+    padding: 10px;
+
+  }
+
+  .GigButton:hover {
+      cursor: pointer;
+      transition: 0.7s;
+    box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+  }
+
+  .triviaButton {
+    font-size: 24px;
+    background-color: rgb(236, 255, 193);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    box-shadow: 4px 11px 45px 0px rgba(0,0,0,0.63);
+    border: 0px solid #000000;
+    margin:10px;
+    padding: 10px;
+  }
+
+  .triviaButton:hover {
+      cursor: pointer;
+      transition: 0.7s;
+    box-shadow: inset 4px 11px 45px 0px rgba(0,0,0,0.63);
+  }
+
+  /* End of Project Button Styles */
+
+
+  /* Project img link styles to show layered effect */
+
+  .projectIcon {
+    margin-top: 70px; 
+      position: relative;
+      width: 160px;
+      height: 140px;
+      background: rgba(0,0,0,1);
+      border-radius: 68px 68px 68px 68px;
+      border: 0px solid #000000;
+    box-shadow: -14px 21px 37px 6px rgba(0,0,0,0.61);    
+    transform: rotate(-30deg)skew(25deg)scale(.8);
+    transition: 0.3s;
+  }
+
+  .projectIcon img {
+      position: absolute;
+      background:cover center;
+      width:100%;
+      height:100%;
+      transition:0.5s;
+      border-radius: 68px 68px 68px 68px;
+      border: 0px solid #000000;
+  }
+
+  .projectIcon:hover img:nth-child(4) {
+      transform: translate(120px,-120px);
+      opacity: 1;
+  }
+
+  .projectIcon:hover img:nth-child(3) {
+    transform: translate(80px,-80px);
+    opacity: .8;
+}
+
+.projectIcon:hover img:nth-child(2) {
+    transform: translate(40px,-40px);
+    opacity: .6;
+}
+
+.projectIcon:hover img:nth-child(1) {
+    transform: translate(10px,-10px);
+    opacity: .4;
+}
+
+
+
+.submit {
+box-shadow: 2px 6px 22px 3px rgba(0,0,0,0.25);
+}
+
+.submit:hover {
+    box-shadow: inset 2px 6px 61px 3px rgba(0,0,0,0.25);
+}
+
+
+/* Button styles for links */
+
+.resumeButton {
+    background-color: #2aba87;
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.resumeButton:hover {
+    cursor: pointer;
+}
+
+.emailButton {
+    background-color: rgb(244, 75, 137);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.emailButton:hover {
+    cursor: pointer;
+}
+
+.phoneButton {
+    background-color: rgb(40, 224, 120);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.phoneButton:hover {
+    cursor: pointer;
+}
+
+.linkedInButton {
+    background-color: rgb(47, 137, 216);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.linkedInButton:hover {
+    cursor: pointer;
+}
+
+.gitHubButton {
+    background-color: rgb(169, 84, 255);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.gitHubButton:hover {
+    cursor: pointer;
+}
+
+/* End of button styles */

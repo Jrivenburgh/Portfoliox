@@ -1,0 +1,225 @@
+body {
+    background-image: url("../img/Oil.jpg");
+}
+
+
+
+nav {
+    font-family: 'Righteous', cursive;
+    border-radius: 0px 0px 38px 46px;
+    border: 0px solid #000000;
+    box-shadow: 13px 13px 23px 3px rgba(0,0,0,0.72);
+}
+
+
+
+#list-tab {
+    border-radius: 0px 35px 44px 38px;
+    border: 0px solid #0cdee9;
+    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+    background-color: black;
+    color: white;
+    
+    
+}
+
+
+#list-About{
+    font-family: 'Fahkwang', sans-serif;
+    max-height: 400px;
+    min-height: 195px;
+    background:#343A40;
+    color: white;
+    border-radius:12px;
+    font-size: 16px;
+    overflow-x: auto;
+    width:auto;
+    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+}
+
+
+
+#list-Coding{
+    font-family: 'Fahkwang', sans-serif;
+    max-height: 400px;
+    min-height: 195px;
+    background:#343A40;
+    color: white;
+    border-radius:12px;
+    font-size: 20px;
+    overflow-x: auto;
+    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+}
+
+#list-Hobbies{
+    width:auto;
+    font-family: 'Fahkwang', sans-serif;
+    max-height: 400px;
+    min-height: 195px;
+    background:#343A40;
+    color: white;
+    border-radius:12px;
+    font-size: 20px;
+    overflow-x: auto;
+    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+}
+
+#list-Goals{
+    width:auto;
+    font-family: 'Fahkwang', sans-serif;
+    max-height: 400px;
+    min-height: 195px;
+    background:#343A40;
+    color: white;
+    border-radius:12px;
+    font-size: 20px;
+    overflow-x: auto;
+    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+}
+
+#list-Contact {
+    width:auto;
+    font-family: 'Fahkwang', sans-serif;
+    max-height: 400px;
+    min-height: 195px;
+    background:#343A40;
+    color: white;
+    border-radius:12px;
+    font-size: 20px;
+    overflow-x: auto;
+    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+}
+
+#list-Contact a {
+    color:white;
+}
+
+.mainrow {
+    margin: 20px 0px 0px 25px;
+}
+
+.nav-link{
+    margin: 5px;
+}
+
+
+
+.img-fluid{
+    min-height: auto;
+    width:auto;
+    border-radius: 77px 77px 77px 77px;
+    border: 0px solid #000000;
+    box-shadow: 11px 10px 24px 1px rgba(0,0,0,0.75);
+}
+
+
+.nav-item:hover {
+    margin: 2px;
+    border-radius: 59px 59px 59px 59px;
+    border: 0px solid #000000;
+    box-shadow: inset 6px 4px 14px 0px rgba(0,0,0,0.52);
+}
+
+.formulagen {
+    color:#66a532;
+}
+
+.nav-item {
+    margin: 0px 10px 0px 0px;
+    border: solid #039ba3;
+    border-width: 0px 2px 0px 0px;
+    
+}
+
+.table-para {
+    margin: 3px;
+
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+    font-family: 'Righteous', cursive;
+    padding: 10px;
+    font-size: 13px;
+    text-align: left;
+    
+
+}
+
+.list-group-item.active {
+    background-color: #1f3b08;
+    color: white;
+    font-family: 'Righteous', cursive;
+
+}
+
+/* Button styles for links */
+
+.resumeButton {
+    background-color: #2aba87;
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.resumeButton:hover {
+    cursor: pointer;
+}
+
+.emailButton {
+    background-color: rgb(244, 75, 137);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.emailButton:hover {
+    cursor: pointer;
+}
+
+.phoneButton {
+    background-color: rgb(40, 224, 120);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.phoneButton:hover {
+    cursor: pointer;
+}
+
+.linkedInButton {
+    background-color: rgb(47, 137, 216);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.linkedInButton:hover {
+    cursor: pointer;
+}
+
+.gitHubButton {
+    background-color: rgb(169, 84, 255);
+    color: #000000;
+    border-radius: 55px 55px 55px 55px;
+    border: 0px solid #000000;
+    margin:5px;
+}
+
+.gitHubButton:hover {
+    cursor: pointer;
+}
+
+/* End of button styles */
+
+.logos {
+    width: 200px;
+    height: 150px;
+
+}
